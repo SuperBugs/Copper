@@ -2,10 +2,15 @@
 > 一款提供优惠券和优惠活动信息的安卓APP
 ## 软件截图
 ![](./img/s_1.png)  
+  
 ![](./img/s_2.png)  
+  
 ![](./img/s_3.png)  
+  
 ![](./img/s_4.png)  
+  
 ![](./img/s_5.png)  
+  
 ![](./img/s_6.png)  
 
 
@@ -14,4 +19,4 @@
 
 ## 作者
 
-Superbug – 3038722642@qq.com
+> Superbug – 3038722642@qq.com
