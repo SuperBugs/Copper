@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_h"
+        android:background="@color/title_blue"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="320"
+            android:background="@drawable/back"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:text="@string/f_seting_share_activity"
+            android:textSize="@dimen/main_title_text_size"
+            android:textColor="@color/title_text_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="325" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/f_share_careful_hint"
+        android:textColor="@color/red" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="250" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="210"
+            android:gravity="center"
+            android:text="@string/f_share_name"
+            android:textSize="@dimen/tv_account" />
+
+        <EditText
+            android:id="@+id/f_share_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="100"
+            android:background="@drawable/bg_white_corners"
+            android:hint="@string/f_share_name_hint"
+            android:includeFontPadding="false"
+            android:maxLength="10"
+            android:selectAllOnFocus="true"
+            android:textSize="@dimen/edit_hint_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="220" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="250" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="210"
+            android:gravity="center"
+            android:text="@string/f_share_address"
+            android:textSize="@dimen/tv_account" />
+
+        <EditText
+            android:id="@+id/f_share_address_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="100"
+            android:background="@drawable/bg_white_corners"
+            android:hint="@string/f_share_address_hint"
+            android:includeFontPadding="false"
+            android:maxLength="40"
+            android:selectAllOnFocus="true"
+            android:textSize="@dimen/edit_hint_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="220" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="250" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="210"
+            android:gravity="center"
+            android:text="@string/f_share_share_number"
+            android:textSize="@dimen/tv_account" />
+
+        <EditText
+            android:id="@+id/f_share_number_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="100"
+            android:background="@drawable/bg_white_corners"
+            android:hint="@string/f_share_share_number_hint"
+            android:includeFontPadding="false"
+            android:selectAllOnFocus="true"
+            android:textSize="@dimen/edit_hint_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="220" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/f_share_introduce"
+        android:textSize="@dimen/tv_account" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/f_share_introduce_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_white_corners"
+            android:gravity="left|top"
+            android:inputType="textMultiLine"
+            android:maxLength="100"
+            android:maxLines="5"
+            android:minHeight="100dp"
+            android:minLines="1"
+            android:scrollbars="vertical"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/f_share_submit_btn"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/blue_selector"
+            android:text="@string/f_share_submit_hint"
+            android:textSize="17dp"
+            android:textColor="@color/little_black"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/little_white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/f_set_change_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/little_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/xiugai" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_change_password" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/f_set_clean"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/little_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/clean" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="清理缓存" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/fankui" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_feedback" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_share_activity"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/tijiao" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_share_activity" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_pinfen"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/pingfen" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_pinfen" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_share"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/fenxiang" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_share" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_help"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/help" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_help" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/lianxi" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_contact_us" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_law"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/falv" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_law" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+
+            <LinearLayout
+                android:id="@+id/f_set_app_version"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_set"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/f_set_h"
+                    android:background="@drawable/set_item_selector"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/f_set_item_h"
+                        android:layout_height="@dimen/f_set_item_h"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/f_set_top_m"
+                        android:layout_marginLeft="@dimen/f_set_left_m"
+                        android:layout_marginTop="@dimen/f_set_top_m"
+                        android:background="@drawable/lianxi" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/f_set_right_m"
+                        android:gravity="center"
+                        android:text="@string/f_seting_version" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/little_gray" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

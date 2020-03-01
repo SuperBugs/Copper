@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/set_item_selector">
+
+    <ImageView
+        android:id="@+id/iv_maintask_image"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="40"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_maintask_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/left_menu_text_size" />
+
+        <TextView
+            android:id="@+id/tv_maintask_income"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/red"
+            android:textSize="17dp"
+            android:gravity="top" />
+    </RelativeLayout>
+</LinearLayout>

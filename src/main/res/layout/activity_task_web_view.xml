@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_h"
+        android:background="@color/title_blue"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/activity_task_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="270"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/back"
+            android:includeFontPadding="false"
+            android:padding="5dp" />
+
+
+        <TextView
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:text="@string/task_detaile_title"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/main_title_text_size" />
+        <ImageView
+            android:id="@+id/activity_task_share"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/shares" />
+        <ImageView
+            android:id="@+id/activity_task_refresh_IV"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/refresh" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:progressDrawable="@drawable/progress_bar_bg"
+        android:visibility="gone"
+        android:progress="30"
+        />
+    <WebView
+        android:id="@+id/activity_task_wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+    </WebView>
+</LinearLayout>

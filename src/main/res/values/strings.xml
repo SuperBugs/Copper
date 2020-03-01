@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">铜钱赚</string>
+    <string name="main_title">铜钱赚</string>
+    <string name="ac_main_bottom_first">首页</string>
+    <string name="ac_main_bottom_two">优惠券</string>
+    <string name="ac_main_bottom_three">赚钱</string>
+    <string name="ac_main_bottom_four">我的</string>
+    <string name="ac_main_bottom_five">设置</string>
+    <string name="left_menu_btn1">评分</string>
+    <string name="left_menu_btn2">分享</string>
+    <string name="left_menu_six">设置</string>
+    <string name="mob_app_key">15bfa68aa8bef</string>
+    <string name="mob_app_secret">dd8d0e64d5c55729889b0af46d0f4ce6</string>
+    <string name="btn_log_on">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_forget">忘记密码</string>
+    <string name="btn_register_now">立即注册</string>
+    <string name="btn_register_test">获取验证码</string>
+    <string name="btn_change_password">立即修改</string>
+    <string name="tv_account">账户:</string>
+    <string name="tv_password">密码:</string>
+    <string name="tv_new_password">新密码:</string>
+    <string name="tv_password_again">重复密码:</string>
+    <string name="tv_login">登录</string>
+    <string name="tv_register">注册</string>
+    <string name="tv_find_password">修改密码</string>
+    <string name="tv_list_footer">正在加载……</string>
+    <string name="tv_list_over">加载完毕</string>
+    <string name="tv_task">理财活动</string>
+    <string name="tv_yuhui1">流量券</string>
+    <string name="tv_yuhui2">话费券</string>
+    <string name="tv_yuhui3">外卖券</string>
+    <string name="tv_yuhui4">购物券</string>
+    <string name="tv_yuhui5">打车券</string>
+    <string name="tv_yuhui6">电影券</string>
+    <string name="tv_yuhui7">理财券</string>
+    <string name="tv_yuhui8">红包券</string>
+    <string name="tv_app">赚钱应用</string>
+    <string name="et_register_test">验证码</string>
+    <string name="et_account_hint">请输入手机号码</string>
+    <string name="et_password_hint">以数字、字母组成的密码</string>
+    <string name="et_password_hint_again">请再次输入账户密码</string>
+    <string name="toast_register_number">请输入11位手机号!</string>
+    <string name="toast_register_password">请输入6至20位合法的密码!</string>
+    <string name="toast_register_password_null">密码不能为空!</string>
+    <string name="toast_register_password_error">两次输入的密码不一致!</string>
+    <string name="toast_post_security">验证码发送成功，请注意查收</string>
+    <string name="toast_app_new">已是最新版本!</string>
+    <string name="toast_post_security_null">验证码为空</string>
+    <string name="toast_register_success">注册成功!</string>
+    <string name="toast_register_fail">注册失败,请稍后再试</string>
+    <string name="toast_register_have">此手机记号以被注册</string>
+    <string name="toast_login_success">登录成功</string>
+    <string name="toast_login_fail">密码错误</string>
+    <string name="toast_login_num">请输入验证码</string>
+    <string name="toast_login_num_wrong">验证码错误</string>
+    <string name="toast_login_null">账号不存在</string>
+    <string name="toast_login_wrong">请输入正确账号</string>
+    <string name="toast_change_user_date_success">修改成功</string>
+    <string name="toast_change_user_date_fail">修改失败,请稍后再试</string>
+    <string name="toast_change_user_head_true">修改成功</string>
+    <string name="toast_change_user_head_false">修改失败,请稍后再试</string>
+    <string name="toast_internet_wrong">网络连接异常</string>
+    <string name="toast_data_loading">请稍后,数据加载中</string>
+    <string name="toast_system_wrong">系统异常</string>
+    <string name="dialog_register_now">正在注册…</string>
+    <string name="dialog_change_account_now">正在修改…</string>
+    <string name="dialog_change_head_now">正在同步头像…</string>
+    <string name="dialog_login_now">正在登录…</string>
+    <string name="country_number">+86</string>
+    <string name="main_tv_one">国内</string>
+    <string name="main_tv_two">最新</string>
+    <string name="main_tv_three">国外</string>
+    <string name="main_tv_five">优惠</string>
+    <string name="main_tv_four">平台推荐</string>
+    <string name="main_tv_yuhuiquan">优惠券</string>
+    <string name="china_tv_title">国内</string>
+    <string name="yuhuiquan_tv_title">优惠</string>
+    <string name="new_tv_title">最新</string>
+    <string name="abroad_tv_title">国外</string>
+    <string name="task_detaile_title">活动详情</string>
+    <string name="yuihuiquan_detaile_title">福利详情</string>
+    <string name="yuihuiquan_detaile_type">标签:</string>
+    <string name="app_detaile_title">应用详情</string>
+    <string name="task_detaile_type">标签</string>
+    <string name="task_detaile_url">链接:</string>
+    <string name="task_detaile_income">收益:</string>
+    <string name="task_detaile_data">日期</string>
+    <string name="task_detaile_introduce">参加步骤</string>
+    <string name="ac_yuhuiquan_detaile_task">活动</string>
+    <string name="ac_yuhuiquan_detaile_introduce">领取步骤</string>
+    <string name="task_detaile_video">视频示范</string>
+    <string name="task_detaile_start">立即开始</string>
+    <string name="f_user_level_zero">网赚老司机</string>
+    <string name="f_user_level_one">网赚天神</string>
+    <string name="f_user_level_two">网赚大神</string>
+    <string name="f_user_level_three">网赚大师</string>
+    <string name="f_user_level_four">网赚小鸟</string>
+    <string name="f_user_level_five">网赚新手</string>
+    <string name="f_user_level_zero_ex">5000</string>
+    <string name="f_user_level_one_ex">2000</string>
+    <string name="f_user_level_two_ex">1000</string>
+    <string name="f_user_level_three_ex">500</string>
+    <string name="f_user_level_four_ex">100</string>
+    <string name="f_user_level_five_ex">0</string>
+    <string name="f_user_honor_explain">称号说明</string>
+    <string name="f_user_nick_name_change_now">正在修改…</string>
+    <string name="f_help_title_one">平台介绍</string>
+    <string name="f_help_title_one_content">&#160; &#160;铜钱赚是一个免费为用户展示网络上可以获得收益的活动、应用信息的平台</string>
+    <string name="f_help_title_two">赚钱方式</string>
+    <string name="f_help_title_two_content"> &#160; &#160;用户可以在首页游览自己感兴趣的活动或者应用，并按照提示参加活动，则可以获取相应的收益，部分活动或者应用可以依靠推广邀请好友获取更多收益</string>
+    <string name="f_help_title_three">推广技巧</string>
+    <string name="f_help_title_three_content"> &#160; &#160;向qq群、贴吧、朋友圈中发布活动或应用的邀请链接，从而获得邀请奖励</string>
+    <string name="f_help_title_four">常见问题</string>
+    <string name="f_help_title_four_content">1.怎么获取奖励或者提现奖励\n &#160; &#160;具体提现方式请参考相应活动或应用的提现方式(不尽相同)\n2.提现或者奖励迟迟没有到账怎么办?\n&#160; &#160;活动或者应用的提现时间都不一定相同,如果24小时都没有到账请提交反馈或联系客服，以便删除此任务或者应用\n3.参加国外应用时无法打开网页或者app?\n&#160; &#160;因为国内网络无法访问国外网络,解决方法是让手机使用vpn软件,具体使用方法请自行百度</string>
+    <string name="f_share_careful_hint">注意:禁止分享虚假、违反法律、诈骗、侵犯他人或组织权益的内容，最终解释权归铜钱赚官方所有</string>
+    <string name="f_share_name">名称</string>
+    <string name="f_share_name_hint">活动或应用名称</string>
+    <string name="f_share_introduce">详细介绍</string>
+    <string name="f_share_introduce_hint">活动或应用详细介绍</string>
+    <string name="f_share_address">链接</string>
+    <string name="f_share_address_hint">活动或应用链接地址</string>
+    <string name="f_share_share_number">邀请码</string>
+    <string name="f_share_share_number_hint">活动或应用邀请码(可不填)</string>
+    <string name="f_share_submit_hint">立即提交</string>
+    <string name="f_share_dialog_now">正在提交…</string>
+    <string name="f_feedback">意见反馈</string>
+    <string name="f_feedback_contact">联系方式</string>
+    <string name="f_feedback_contact_hint">QQ、邮箱、电话</string>
+    <string name="f_seting_change_password">修改密码</string>
+    <string name="f_seting_contact_us">联系我们</string>
+    <string name="f_seting_help">使用帮助</string>
+    <string name="f_seting_law">法律声明</string>
+    <string name="f_seting_share">分享软件</string>
+    <string name="f_seting_pinfen">软件评分</string>
+    <string name="f_seting_version">检查更新</string>
+    <string name="f_seting_feedback">意见反馈</string>
+    <string name="f_seting_share_activity">提交活动</string>
+    <string name="activity_user_honor_experience">经验累计</string>
+    <string name="activity_user_honor_name">荣誉称号</string>
+    <string name="activity_change_nick_name_hint">请输入10个字符以内的新昵称</string>
+    <string name="activity_change_nick_name">修改昵称</string>
+    <string name="activity_contact_us">联系我们</string>
+    <string name="activity_contact_qq">客服QQ:&#160;&#160;&#160;826732261</string>
+    <string name="activity_contact_address">官网:&#160;&#160;&#160;www.tqzapp.com</string>
+    <string name="activity_contact_weixing">微信公众号:&#160;&#160;&#160;铜钱赚</string>
+    <string name="activity_contact_email">官方邮箱:&#160;&#160;&#160;tongqianzhuan@yahoo.com</string>
+    <string name="activity_contact_qqQun">官方QQ群:&#160;&#160;&#160;206945226</string>
+    <string name="activity_change_nick_name_now">立即修改</string>
+    <string name="activity_law">法律申明</string>
+    <string name="activity_user_argument">使用协议</string>
+    <string name="activity_user_argument_content">&#160;&#160;&#160;1.用户注册或使用铜钱赚APP即视用户同意和遵守以下协议。\n
+&#160;&#160;2.铜钱赚的所有权归铜钱赚官方所有，除开发者允许外 任何组织或个人都禁止将铜钱赚用于商业、盈利、修改app、违反法律等各项活动，铜钱赚上的内容均为网友分享，与铜钱赚无关，铜钱赚官方对铜钱赚上的内容不承担任何责任，如铜钱赚上的内容侵犯了他人或组织的权益，请尽快联系我们协商解决。\n
+&#160;&#160;3.用户在遵守法律及本条款的前提下可依本条款使用铜钱赚软件的任何功能或服务，但用户不得对铜钱赚软件实施如下行为（包括但不限于）：\n
+&#160;&#160;&#160;（1）删除本软件及其他副本上一切关于版权的信息；\n
+&#160;&#160;&#160;（2）对本软件进行反向工程（reverse engineer），如反向编译（decompile）、反汇编（disassemble）等;\n
+&#160;&#160;&#160;（3）修改、破坏本软件原状；\n
+&#160;&#160;&#160;（4）进行任何危害网络安全的行为，包括但不限于：使用未经许可的数据或进入未经许可的服务器/账户；未经允许进入公众网络或者他人操作系统并删除、修改、增加存储信息；未经许可企图探查、扫描、测试本“软件”系统或网络的漏洞或其它实施破坏网络安全的行为； 企图干涉、破坏本“软件”系统或网站的正常运行，故意传播恶意程序或病毒以及其他破坏干扰正常网络信息服务的行为；伪造TCP/IP数据包名称或部分名称；\n
+&#160;&#160;&#160;（5）任何其他侵犯铜钱赚软件或其所包含的第三方知识产权的行为。\n
+&#160;&#160;4.    为了改善用户体验，铜钱赚将不时提供软件更新，您可以自行选择是否更新。本软件新版本发布后，旧版软件可能无法使用，请您及时核对并下载最新版本。\n
+&#160;&#160;5. 您理解并同意：铜钱赚将会尽其努力保障您在本软件及服务中的数据存储安全，但是，铜钱赚并不能就此提供完全保证，包括但不限于以下情形：\n
+&#160;&#160;&#160;（1）铜钱赚不对您在本软件及服务中相关数据的删除或储存失败负责；\n
+&#160;&#160;&#160;（2）铜钱赚有权根据实际情况自行决定您在本软件及服务中数据的最长储存期限、服务器中数据的最大存储空间等，您可根据自己的需要自行备份本软件及服务中的相关数据。双方另有约定的按相应约定执行；\n
+&#160;&#160;6.最终解释权归铜钱赚官方所有。\n
+</string>
+    <string name="activity_law_content">&#160;&#160;1. 铜钱赚的所有权归铜钱赚官方所有，除开发者允许外 任何组织或个人都禁止将铜钱赚用于商业、盈利、修改app、违反法律等各项活动,铜钱赚上的内容均为网友分享，与铜钱赚无关，铜钱赚官方对铜钱赚上的内容不承担任何责任，如铜钱赚上的内容侵犯了他人或组织的权益，请尽快联系我们协商解决。\n
+&#160;&#160;2.用户在遵守法律及本条款的前提下可依本条款使用铜钱赚软件的任何功能或服务，但用户不得对铜钱赚软件实施如下行为（包括但不限于）：\n
+&#160;&#160;&#160;（1）删除本软件及其他副本上一切关于版权的信息；\n
+&#160;&#160;&#160;（2）对本软件进行反向工程（reverse engineer），如反向编译（decompile）、反汇编（disassemble）等；\n
+&#160;&#160;&#160;（3）修改、破坏本软件原状；\n
+&#160;&#160;&#160;（4）进行任何危害网络安全的行为，包括但不限于：使用未经许可的数据或进入未经许可的服务器/账户；未经允许进入公众网络或者他人操作系统并删除、修改、增加存储信息；未经许可企图探查、扫描、测试本“软件”系统或网络的漏洞或其它实施破坏网络安全的行为； 企图干涉、破坏本“软件”系统或网站的正常运行，故意传播恶意程序或病毒以及其他破坏干扰正常网络信息服务的行为；伪造TCP/IP数据包名称或部分名称；\n
+&#160;&#160;（5）任何其他侵犯铜钱赚软件或其所包含的第三方知识产权的行为。\n
+&#160;&#160;3. 最终解释权归铜钱赚官方所有。\n
+</string>
+    <string name="silding_menu_nick_name">点击登录</string>
+    <string name="silding_menu_honor_name">网赚小鸟</string>
+    <string name="list_view_income">收益:</string>
+    <string name="list_view_youhuiquan">优惠券:</string>
+    <string name="activity_task_detailes">注意:某些活动不填写邀请码会没有新手奖励</string>
+    <string name="experience_add">100</string>
+    <string name="activity_app_detailes">注意:某些应用不填写邀请码会没有新手奖励</string>
+    <string name="activity_copy_share_num">复制</string>
+    <string name="activity_copy_share_num_hint">邀请码已复制!</string>
+    <string name="activity_share_num">邀请码</string>
+    <string name="activity_app_detailes_expercience">经验+100!</string>
+    <string name="activity_task_detailes_expercience">经验+100!</string>
+
+</resources>
