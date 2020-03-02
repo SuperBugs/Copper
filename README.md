@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://img.shields.io/cran/l/devtools)
 ## 铜钱赚
 > 一款提供优惠券和优惠活动信息的安卓APP
 ## 软件截图
